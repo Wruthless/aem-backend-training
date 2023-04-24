@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/backendtrain" mode="merge"/>
+    <filter root="/content/backendtrain" mode="merge"/>
+    <filter root="/content/dam/backendtrain/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/backendtrain" mode="merge"/>
+</workspaceFilter>

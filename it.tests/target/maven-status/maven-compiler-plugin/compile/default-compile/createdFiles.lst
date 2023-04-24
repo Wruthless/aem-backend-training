@@ -1,0 +1,4 @@
+com/adobe/backendtraining/it/tests/HtmlUnitClient.class
+com/adobe/backendtraining/it/tests/CreatePageIT.class
+com/adobe/backendtraining/it/tests/GetPageIT.class
+com/adobe/backendtraining/it/tests/PublishPageValidationIT.class

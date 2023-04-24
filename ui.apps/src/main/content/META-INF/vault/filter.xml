@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/backendtrain/clientlibs"/>
+    <filter root="/apps/backendtrain/components"/>
+    <filter root="/apps/backendtrain/i18n"/>
+    <filter root="/apps/sling" />
+    <filter root="/apps/msm/backendtrain_blueprint" mode="merge"/>
+</workspaceFilter>

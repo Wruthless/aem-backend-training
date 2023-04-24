@@ -1,0 +1,13 @@
+/Users/wesgonzales/adobe/backendtrain/core/src/main/java/com/adobe/backendtraining/core/servlets/package-info.java
+/Users/wesgonzales/adobe/backendtrain/core/src/main/java/com/adobe/backendtraining/core/servlets/SimpleServlet.java
+/Users/wesgonzales/adobe/backendtrain/core/src/main/java/com/adobe/backendtraining/core/filters/LoggingFilter.java
+/Users/wesgonzales/adobe/backendtrain/core/src/main/java/com/adobe/backendtraining/core/models/HelloWorldModel.java
+/Users/wesgonzales/adobe/backendtrain/core/src/main/java/com/adobe/backendtraining/core/schedulers/SimpleScheduledTask.java
+/Users/wesgonzales/adobe/backendtrain/core/src/main/java/com/adobe/backendtraining/core/models/package-info.java
+/Users/wesgonzales/adobe/backendtrain/core/src/main/java/com/adobe/backendtraining/core/listeners/package-info.java
+/Users/wesgonzales/adobe/backendtrain/core/src/main/java/com/adobe/backendtraining/core/schedulers/package-info.java
+/Users/wesgonzales/adobe/backendtrain/core/src/main/java/com/adobe/backendtraining/core/services/package-info.java
+/Users/wesgonzales/adobe/backendtrain/core/src/main/java/com/adobe/backendtraining/core/services/DeveloperInfo.java
+/Users/wesgonzales/adobe/backendtrain/core/src/main/java/com/adobe/backendtraining/core/listeners/SimpleResourceListener.java
+/Users/wesgonzales/adobe/backendtrain/core/src/main/java/com/adobe/backendtraining/core/services/impl/DeveloperInfoImpl.java
+/Users/wesgonzales/adobe/backendtrain/core/src/main/java/com/adobe/backendtraining/core/filters/package-info.java

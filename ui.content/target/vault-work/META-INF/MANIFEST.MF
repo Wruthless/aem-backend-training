@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Created-By: Apache Jackrabbit FileVault - Package Maven Plugin 1.1.6
+Build-Jdk-Spec: 19
+Implementation-Title: Backend.Train - UI content
+Implementation-Version: 1.0-SNAPSHOT
+Content-Package-Type: content
+Content-Package-Id: com.adobe.backendtraining:backendtrain.ui.content:1.
+ 0-SNAPSHOT
+Content-Package-Description: UI content package for Backend.Train
+Content-Package-Dependencies: com.adobe.backendtraining:backendtrain.ui.
+ apps:1.0-SNAPSHOT
+Content-Package-Dependencies-Locations: com.adobe.backendtraining:backen
+ dtrain.ui.apps:1.0-SNAPSHOT=maven:com.adobe.backendtraining:backendtrai
+ n.ui.apps:1.0-SNAPSHOT:zip
+Content-Package-Roots: /conf/backendtrain,/content/backendtrain,/content
+ /dam/backendtrain/asset.jpg,/content/experience-fragments/backendtrain
+

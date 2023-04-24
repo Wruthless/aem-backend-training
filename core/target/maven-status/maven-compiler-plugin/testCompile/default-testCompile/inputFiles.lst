@@ -1,0 +1,6 @@
+/Users/wesgonzales/adobe/backendtrain/core/src/test/java/com/adobe/backendtraining/core/servlets/SimpleServletTest.java
+/Users/wesgonzales/adobe/backendtrain/core/src/test/java/com/adobe/backendtraining/core/listeners/SimpleResourceListenerTest.java
+/Users/wesgonzales/adobe/backendtrain/core/src/test/java/com/adobe/backendtraining/core/schedulers/SimpleScheduledTaskTest.java
+/Users/wesgonzales/adobe/backendtrain/core/src/test/java/com/adobe/backendtraining/core/filters/LoggingFilterTest.java
+/Users/wesgonzales/adobe/backendtrain/core/src/test/java/com/adobe/backendtraining/core/testcontext/AppAemContext.java
+/Users/wesgonzales/adobe/backendtrain/core/src/test/java/com/adobe/backendtraining/core/models/HelloWorldModelTest.java
