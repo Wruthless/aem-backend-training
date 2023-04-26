@@ -6,6 +6,7 @@ com/adobe/backendtraining/core/listeners/package-info.class
 com/adobe/backendtraining/core/servlets/package-info.class
 com/adobe/backendtraining/core/models/package-info.class
 com/adobe/backendtraining/core/models/HelloWorldModel.class
+com/adobe/backendtraining/core/services/impl/DeveloperInfoConfiguration.class
 com/adobe/backendtraining/core/filters/package-info.class
 com/adobe/backendtraining/core/services/package-info.class
 com/adobe/backendtraining/core/schedulers/package-info.class

@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.3.0" name="com.adobe.backendtraining.core.services.impl.DeveloperInfoImpl" immediate="true" activate="activate" deactivate="deactivate" modified="activate">
+  <property name="developerinfo.showinfo" type="Boolean" value="false"/>
+  <property name="developerinfo.name" type="String" value=""/>
+  <property name="developerinfo.hobbies" type="String">swimming
+climbing</property>
+  <property name="developerinfo.language" type="String" value=""/>
   <service>
     <provide interface="com.adobe.backendtraining.core.services.DeveloperInfo"/>
   </service>

@@ -5,7 +5,7 @@
 <entry key="allowIndexDefinitions">false</entry>
 <entry key="acHandling">merge</entry>
 <entry key="dependencies-locations">com.adobe.backendtraining:backendtrain.ui.apps:1.0-SNAPSHOT=maven:com.adobe.backendtraining:backendtrain.ui.apps:1.0-SNAPSHOT:zip</entry>
-<entry key="created">2023-04-24T20:36:30.565Z</entry>
+<entry key="created">2023-04-26T17:56:09.477Z</entry>
 <entry key="groupId">com.adobe.backendtraining</entry>
 <entry key="description">UI content package for Backend.Train</entry>
 <entry key="version">1.0-SNAPSHOT</entry>
