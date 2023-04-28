@@ -36,15 +36,17 @@ Provide-Capability: osgi.service;objectClass:List<String>="com.adobe.b
  ax.servlet.Servlet";uses:="javax.servlet",osgi.service;objectClass:Li
  st<String>="org.apache.sling.api.resource.observation.ResourceChangeL
  istener";uses:="org.apache.sling.api.resource.observation"
-Require-Capability: osgi.extender;filter:="(&(osgi.extender=osgi.compo
- nent)(version>=1.4.0)(!(version>=2.0.0)))",osgi.ee;filter:="(&(osgi.e
- e=JavaSE)(version=1.8))"
+Require-Capability: osgi.service;filter:="(objectClass=com.day.cq.wcm.
+ api.PageManagerFactory)";effective:=active,osgi.extender;filter:="(&(
+ osgi.extender=osgi.component)(version>=1.4.0)(!(version>=2.0.0)))",os
+ gi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
 Service-Component: OSGI-INF/com.adobe.backendtraining.core.filters.Log
  gingFilter.xml,OSGI-INF/com.adobe.backendtraining.core.listeners.Simp
  leResourceListener.xml,OSGI-INF/com.adobe.backendtraining.core.schedu
  lers.SimpleScheduledTask.xml,OSGI-INF/com.adobe.backendtraining.core.
  services.impl.DeveloperInfoImpl.xml,OSGI-INF/com.adobe.backendtrainin
- g.core.servlets.SimpleServlet.xml
+ g.core.servlets.SimpleServlet.xml,OSGI-INF/com.adobe.backendtraining.
+ core.servlets.TitleSlingServlet.xml
 Sling-Model-Classes: com.adobe.backendtraining.core.models.HelloWorldM
  odel
 
