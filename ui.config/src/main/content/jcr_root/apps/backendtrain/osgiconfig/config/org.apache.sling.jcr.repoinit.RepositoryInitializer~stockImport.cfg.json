@@ -1,5 +1,5 @@
 {
-    "scripts":[
-      "create service user stock-import-service\n set ACL on /content\n allow jcr:all for stock-import-service\n end\n"
-    ]
-  }
+  "scripts": [
+    "create service user stock-import-service\n set ACL on /content\n allow jcr:all for stock-import-service\n end\n"
+  ]
+}
