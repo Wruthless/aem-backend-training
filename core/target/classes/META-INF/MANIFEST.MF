@@ -29,13 +29,15 @@ Import-Package: javax.annotation;version="0.0.0",com.adobe.backendtrai
  ;version="[1.1,2)",org.slf4j;version="[1.7,2)"
 Private-Package: com.adobe.backendtraining.core.services.impl
 Provide-Capability: osgi.service;objectClass:List<String>="com.adobe.b
- ackendtraining.core.services.DeveloperInfo";uses:="com.adobe.backendt
- raining.core.services",osgi.service;objectClass:List<String>="java.la
- ng.Runnable",osgi.service;objectClass:List<String>="javax.servlet.Fil
- ter";uses:="javax.servlet",osgi.service;objectClass:List<String>="jav
- ax.servlet.Servlet";uses:="javax.servlet",osgi.service;objectClass:Li
- st<String>="org.apache.sling.api.resource.observation.ResourceChangeL
- istener";uses:="org.apache.sling.api.resource.observation"
+ ackendtraining.core.services.DevName";uses:="com.adobe.backendtrainin
+ g.core.services",osgi.service;objectClass:List<String>="com.adobe.bac
+ kendtraining.core.services.DeveloperInfo";uses:="com.adobe.backendtra
+ ining.core.services",osgi.service;objectClass:List<String>="java.lang
+ .Runnable",osgi.service;objectClass:List<String>="javax.servlet.Filte
+ r";uses:="javax.servlet",osgi.service;objectClass:List<String>="javax
+ .servlet.Servlet";uses:="javax.servlet",osgi.service;objectClass:List
+ <String>="org.apache.sling.api.resource.observation.ResourceChangeLis
+ tener";uses:="org.apache.sling.api.resource.observation"
 Require-Capability: osgi.service;filter:="(objectClass=com.day.cq.wcm.
  api.PageManagerFactory)";effective:=active,osgi.extender;filter:="(&(
  osgi.extender=osgi.component)(version>=1.4.0)(!(version>=2.0.0)))",os
@@ -44,9 +46,10 @@ Service-Component: OSGI-INF/com.adobe.backendtraining.core.filters.Log
  gingFilter.xml,OSGI-INF/com.adobe.backendtraining.core.listeners.Simp
  leResourceListener.xml,OSGI-INF/com.adobe.backendtraining.core.schedu
  lers.SimpleScheduledTask.xml,OSGI-INF/com.adobe.backendtraining.core.
- services.impl.DeveloperInfoImpl.xml,OSGI-INF/com.adobe.backendtrainin
- g.core.servlets.SimpleServlet.xml,OSGI-INF/com.adobe.backendtraining.
- core.servlets.TitleSlingServlet.xml
+ services.impl.DevNameImpl.xml,OSGI-INF/com.adobe.backendtraining.core
+ .services.impl.DeveloperInfoImpl.xml,OSGI-INF/com.adobe.backendtraini
+ ng.core.servlets.SimpleServlet.xml,OSGI-INF/com.adobe.backendtraining
+ .core.servlets.TitleSlingServlet.xml
 Sling-Model-Classes: com.adobe.backendtraining.core.models.HelloWorldM
  odel
 

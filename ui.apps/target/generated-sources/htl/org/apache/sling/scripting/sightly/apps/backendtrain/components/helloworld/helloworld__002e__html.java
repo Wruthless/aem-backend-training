@@ -37,6 +37,7 @@ public final class helloworld__002e__html extends RenderUnit {
 Object _dynamic_properties = bindings.get("properties");
 Object _global_model = null;
 Object _global_devinfo = null;
+Object _global_devname = null;
 out.write("\n<div class=\"cmp-helloworld\" data-cmp-is=\"helloworld\">\n    <h2 class=\"cmp-helloworld__title\">Hello World Component</h2>\n    ");
 {
     Object var_testvariable0 = renderContext.getObjectModel().resolveProperty(_dynamic_properties, "text");
@@ -68,6 +69,13 @@ out.write("<div>");
 {
     String var_4 = (("\n    " + renderContext.getObjectModel().toString(renderContext.call("xss", renderContext.getObjectModel().resolveProperty(_global_devinfo, "developerInfo"), "html"))) + "\n");
     out.write(renderContext.getObjectModel().toString(var_4));
+}
+out.write("</div>\n\n");
+_global_devname = renderContext.call("use", com.adobe.backendtraining.core.services.DevName.class.getName(), obj());
+out.write("<div>");
+{
+    String var_5 = (("\n    " + renderContext.getObjectModel().toString(renderContext.call("xss", renderContext.getObjectModel().resolveProperty(_global_devname, "getName"), "html"))) + "\n");
+    out.write(renderContext.getObjectModel().toString(var_5));
 }
 out.write("</div>\n");
 
