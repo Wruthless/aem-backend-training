@@ -25,6 +25,7 @@ import java.io.IOException;
 // This servlet will not support POST, PUT, or DELETE.
 public class TitleSlingServlet extends SlingSafeMethodsServlet {
 
+    // TO-DO -- see if optional since not implementing 'Serializable'.
     private static final long serialVersionUID = 1L;
 
     // resourceTypes = TitleSlingServlet.RESOURCE_TYPE.
