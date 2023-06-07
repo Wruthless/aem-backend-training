@@ -1,5 +1,6 @@
 /Users/wesgonzales/adobe/backendtrain/core/src/main/java/com/adobe/backendtraining/core/servlets/TitleSlingServlet.java
 /Users/wesgonzales/adobe/backendtrain/core/src/main/java/com/adobe/backendtraining/core/servlets/package-info.java
+/Users/wesgonzales/adobe/backendtrain/core/src/main/java/com/adobe/backendtraining/core/schedulers/StockImportScheduler.java
 /Users/wesgonzales/adobe/backendtrain/core/src/main/java/com/adobe/backendtraining/core/servlets/SimpleServlet.java
 /Users/wesgonzales/adobe/backendtrain/core/src/main/java/com/adobe/backendtraining/core/filters/LoggingFilter.java
 /Users/wesgonzales/adobe/backendtrain/core/src/main/java/com/adobe/backendtraining/core/models/HelloWorldModel.java

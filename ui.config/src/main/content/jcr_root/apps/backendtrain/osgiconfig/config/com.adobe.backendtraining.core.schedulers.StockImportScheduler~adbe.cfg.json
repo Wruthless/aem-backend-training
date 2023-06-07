@@ -1,0 +1,5 @@
+{
+  "cronExpression": "0 0/2 * * * ?",
+  "stock.url": "https://raw.githubusercontent.com/Adobe-Marketing-Cloud/ADLS-Samples/master/stock-data/",
+  "symbol": "ADBE"
+}
