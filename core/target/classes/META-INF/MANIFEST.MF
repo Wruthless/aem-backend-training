@@ -20,15 +20,19 @@ Import-Package: javax.annotation;version="0.0.0",com.adobe.backendtrai
  steners;version="[1.0,2)",com.adobe.backendtraining.core.schedulers;v
  ersion="[1.0,2)",com.adobe.backendtraining.core.services;version="[1.
  0,2)",com.adobe.backendtraining.core.servlets;version="[1.0,2)",com.d
- ay.cq.wcm.api;version="[1.29,2)",javax.servlet;version="[3.1,4)",org.
- apache.sling.api;version="[2.3,3)",org.apache.sling.api.request;versi
- on="[2.4,3)",org.apache.sling.api.resource;version="[2.12,3)",org.apa
- che.sling.api.resource.observation;version="[1.2,2)",org.apache.sling
- .api.servlets;version="[2.3,3)",org.apache.sling.event.jobs;version="
- [2.0,3)",org.apache.sling.models.annotations;version="[1.5,2)",org.ap
- ache.sling.models.annotations.injectorspecific;version="[1.1,2)",org.
- slf4j;version="[1.7,2)"
-Private-Package: com.adobe.backendtraining.core.services.impl
+ ay.cq.wcm.api;version="[1.29,2)",com.fasterxml.jackson.core;version="
+ [2.11,3)",com.fasterxml.jackson.core.type;version="[2.11,3)",com.fast
+ erxml.jackson.databind;version="[2.11,3)",javax.jcr;version="[2.0,3)"
+ ,javax.net.ssl,javax.servlet;version="[3.1,4)",org.apache.sling.api;v
+ ersion="[2.3,3)",org.apache.sling.api.request;version="[2.4,3)",org.a
+ pache.sling.api.resource;version="[2.12,3)",org.apache.sling.api.reso
+ urce.observation;version="[1.2,2)",org.apache.sling.api.servlets;vers
+ ion="[2.3,3)",org.apache.sling.event.jobs;version="[2.0,3)",org.apach
+ e.sling.event.jobs.consumer;version="[1.2,2)",org.apache.sling.models
+ .annotations;version="[1.5,2)",org.apache.sling.models.annotations.in
+ jectorspecific;version="[1.1,2)",org.slf4j;version="[1.7,2)"
+Private-Package: com.adobe.backendtraining.core,com.adobe.backendtrain
+ ing.core.services.impl
 Provide-Capability: osgi.service;objectClass:List<String>="com.adobe.b
  ackendtraining.core.services.DevName";uses:="com.adobe.backendtrainin
  g.core.services",osgi.service;objectClass:List<String>="com.adobe.bac
@@ -38,22 +42,26 @@ Provide-Capability: osgi.service;objectClass:List<String>="com.adobe.b
  r";uses:="javax.servlet",osgi.service;objectClass:List<String>="javax
  .servlet.Servlet";uses:="javax.servlet",osgi.service;objectClass:List
  <String>="org.apache.sling.api.resource.observation.ResourceChangeLis
- tener";uses:="org.apache.sling.api.resource.observation"
+ tener";uses:="org.apache.sling.api.resource.observation",osgi.service
+ ;objectClass:List<String>="org.apache.sling.event.jobs.consumer.JobCo
+ nsumer";uses:="org.apache.sling.event.jobs.consumer"
 Require-Capability: osgi.service;filter:="(objectClass=com.day.cq.wcm.
  api.PageManagerFactory)";effective:=active,osgi.service;filter:="(obj
- ectClass=org.apache.sling.event.jobs.JobManager)";effective:=active,o
- sgi.extender;filter:="(&(osgi.extender=osgi.component)(version>=1.4.0
- )(!(version>=2.0.0)))",osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.
- 8))"
-Service-Component: OSGI-INF/com.adobe.backendtraining.core.filters.Log
- gingFilter.xml,OSGI-INF/com.adobe.backendtraining.core.listeners.Simp
- leResourceListener.xml,OSGI-INF/com.adobe.backendtraining.core.schedu
- lers.SimpleScheduledTask.xml,OSGI-INF/com.adobe.backendtraining.core.
- schedulers.StockImportScheduler.xml,OSGI-INF/com.adobe.backendtrainin
- g.core.services.impl.DevNameImpl.xml,OSGI-INF/com.adobe.backendtraini
- ng.core.services.impl.DeveloperInfoImpl.xml,OSGI-INF/com.adobe.backen
- dtraining.core.servlets.SimpleServlet.xml,OSGI-INF/com.adobe.backendt
- raining.core.servlets.TitleSlingServlet.xml
+ ectClass=org.apache.sling.api.resource.ResourceResolverFactory)";effe
+ ctive:=active,osgi.service;filter:="(objectClass=org.apache.sling.eve
+ nt.jobs.JobManager)";effective:=active,osgi.extender;filter:="(&(osgi
+ .extender=osgi.component)(version>=1.4.0)(!(version>=2.0.0)))",osgi.e
+ e;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Service-Component: OSGI-INF/com.adobe.backendtraining.core.StockDataWr
+ iterJob.xml,OSGI-INF/com.adobe.backendtraining.core.filters.LoggingFi
+ lter.xml,OSGI-INF/com.adobe.backendtraining.core.listeners.SimpleReso
+ urceListener.xml,OSGI-INF/com.adobe.backendtraining.core.schedulers.S
+ impleScheduledTask.xml,OSGI-INF/com.adobe.backendtraining.core.schedu
+ lers.StockImportScheduler.xml,OSGI-INF/com.adobe.backendtraining.core
+ .services.impl.DevNameImpl.xml,OSGI-INF/com.adobe.backendtraining.cor
+ e.services.impl.DeveloperInfoImpl.xml,OSGI-INF/com.adobe.backendtrain
+ ing.core.servlets.SimpleServlet.xml,OSGI-INF/com.adobe.backendtrainin
+ g.core.servlets.TitleSlingServlet.xml
 Sling-Model-Classes: com.adobe.backendtraining.core.models.HelloWorldM
  odel
 
