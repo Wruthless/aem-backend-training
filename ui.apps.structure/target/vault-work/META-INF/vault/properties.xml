@@ -4,7 +4,7 @@
 <comment>Backend.Train - Repository Structure Package</comment>
 <entry key="cloudManagerTarget">none</entry>
 <entry key="allowIndexDefinitions">false</entry>
-<entry key="created">2023-06-12T20:59:08.768Z</entry>
+<entry key="created">2023-06-13T18:13:12.218Z</entry>
 <entry key="groupId">com.adobe.backendtraining</entry>
 <entry key="name">backendtrain.ui.apps.structure</entry>
 <entry key="description">Empty package that defines the structure of the Adobe Experience Manager repository the Code packages in this project deploy into.

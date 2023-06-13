@@ -4,7 +4,7 @@
 <comment>Backend.Train - UI config</comment>
 <entry key="cloudManagerTarget">none</entry>
 <entry key="allowIndexDefinitions">false</entry>
-<entry key="created">2023-06-12T20:59:12.036Z</entry>
+<entry key="created">2023-06-13T18:13:15.279Z</entry>
 <entry key="groupId">com.adobe.backendtraining</entry>
 <entry key="name">backendtrain.ui.config</entry>
 <entry key="description">UI config package for Backend.Train</entry>

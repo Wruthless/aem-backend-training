@@ -15,6 +15,7 @@ com/adobe/backendtraining/core/models/HelloWorldModel.class
 com/adobe/backendtraining/core/services/impl/DeveloperInfoConfiguration.class
 com/adobe/backendtraining/core/filters/package-info.class
 com/adobe/backendtraining/core/services/package-info.class
+com/adobe/backendtraining/core/listeners/StockListener.class
 com/adobe/backendtraining/core/schedulers/package-info.class
 com/adobe/backendtraining/core/services/DeveloperInfo.class
 com/adobe/backendtraining/core/services/DevName.class
